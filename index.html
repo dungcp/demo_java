@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính chu vi và diện tích hình tròn</title>
+    <title>Tính toán</title>
 </head>
 <body>
-    <script src="money.js"></script>
+    <h1>caculator</h1>
+    <table style="width: 500px;">
+        <tr>
+            <td><input type="number" id="fristnumber"></td>
+            <td><input type="number" id="secondnumber"></td>
+        </tr>
+             
+        
+        <tr>
+            <td>
+                <button onclick="addition()">addition(+)</button>
+            </td>
+            <td>
+                <button onclick="subtraction()">subtraction(-)</button>
+            </td>
+            <td>
+                <button onclick="multiplication()">multiplication(x)</button>
+            </td>
+            <td>
+                <button onclick="Division()">Division(/)</button>
+            </td>
+        </tr>
+
+    </table>
+    <h3 id="result"></h3>
+    <script src="cal.js"></script>
 </body>
 </html>
